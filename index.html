@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Mie's hjemmeside</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
+
+  <body style="background-color: rgb(167, 145, 188)">
+    <center>
+      <h1 style="font-size: 2rem; color: aliceblue">My first website</h1>
+    </center>
+    <center>
+      <p style="font-size: 1.1rem">Hey there, so nice of you to pop by! This is my first try with making a website and I'm using <a href="https://www.w3schools.com">W3Schools</a> to learn how to do it.
+      </p>
+
+      <div class="imageWrapper">
+        <img
+          id="mie"
+          src="mie.jpg"
+          alt="This is my face!"
+          width="287"
+          height="470"
+        />
+        <img src="hi.gif" alt="waving" width="130" height="130" />
+      </div>
+
+      <p
+        style="
+          margin-top: -20px;
+          margin-bottom: 30px;
+          font-size: 1rem;
+          font-style: italic;
+        "
+      >
+        This is me! Hello!
+      </p>
+
+      <center>
+        <h2 style="font-size: 1.4rem; color: aliceblue">
+          Why do I want to make a website?
+        </h2>
+      </center>
+      <p style="font-size: 1.1rem">
+        The reason why I want to make a website is to learn something completely
+        new and challenge myself.
+      </p>
+
+      <p style="font-size: 1.1rem">
+        If you want to contact me and talk about coding, write to me on
+        <a href="mailto:miemichellaf@live.dk">miemichellaf@live.dk</a>
+      </p>
+
+
+
+<div class="instaWrapper">
+  <h2 style="font-size: 1.4rem; color:aliceblue; pointer-events: none; ">
+Gaming</h2>
+
+<p style="font-size: 1.1rem; pointer-events: none;">
+  kjuhslfdknsdlkfnsdsfeslfn
+  </p>
+  <img id="arrow" src="arrow.gif" alt=""">
+  <a href="https://www.instagram.com/michellaplays/"</a><img src="insta.png" alt="Instagram">
+</div>
+ 
+
+    </center>
+  </body>
+</html>
+
+<style>
+  @font-face {
+    font-family: poppins;
+    src: url("./poppins/Poppins-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: fredoka;
+    src: url("./fredoka/Fredoka-VariableFont_wdth\,wght.ttf");
+  }
+
+  h2 {
+    font-family: poppins;
+    margin-bottom: -13px;
+  }
+
+  h1 {
+    font-family: poppins;
+    margin-bottom: -12px;
+  }
+
+  h3 {
+    font-family: poppins;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a:link {
+    color: rgb(183, 48, 201);
+    text-decoration: underline;
+  }
+  .imageWrapper {
+    position: relative;
+    width: 360px;
+    height: 500px;
+    margin: 45px auto 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .imageWrapper #mie {
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+  .imageWrapper img:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+    transform: rotate(14deg);
+  }
+  .instaWrapper{
+    position: relative;
+    height: 100px;
+    width: 580px;
+  }
+  .instaWrapper img{
+    position: absolute;
+    top: 20px;
+    filter: hue-rotate(305deg);
+    z-index: 1;
+    left: 40px;
+    width: 120px;
+   
+  }
+  #arrow{
+    z-index: 2;
+top: -17px;
+width: 74px;
+left: 37px;
+pointer-events: none;
+transform: rotate(-28deg);
+opacity: .5;
+  }
+  
+
+  blockquote {
+    margin-top: 40px;
+  }
+</style>
